@@ -1,0 +1,40 @@
+{
+  "name": "lazybook",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Create async-loaded apis that aren't async from the outside",
+  "license": "MIT",
+  "repository": "ajoslin/lazybook",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && webpack && electron dist/bundle.js"
+  },
+  "keywords": [
+    "lazy",
+    "async",
+    "webpack",
+    "systemjs",
+    "load",
+    "facade",
+    "api"
+  ],
+  "devDependencies": {
+    "browserify": "~13.1.0",
+    "electron": "~1.3.4",
+    "hihat": "~2.6.4",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0",
+    "webpack": "~2.1.0-beta.21"
+  },
+  "files": [
+    "*.js",
+    "test/*.js"
+  ],
+  "dependencies": {
+    "assert": "~1.4.1"
+  }
+}
