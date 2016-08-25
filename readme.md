@@ -13,32 +13,7 @@ $ npm install --save lazybook
 
 ## Usage
 
-```js
-var lazybook = require('lazybook')
-
-lazybook('input')
-//=> output
-```
-
-## API
-
-#### `lazybook(input, [options])` -> `output`
-
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+See [test/index.js](./test/index.js).
 
 
 ## License
