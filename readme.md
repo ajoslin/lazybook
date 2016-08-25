@@ -1,7 +1,8 @@
-# lazybook [![Build Status](https://travis-ci.org/ajoslin/lazybook.svg?branch=master)](https://travis-ci.org/ajoslin/lazybook)
+# lazybook 
 
 > Create async-loaded apis that aren't async from the outside
 
+Experimental Webpack module for a talk. Use at your own risk.
 
 ## Install
 
