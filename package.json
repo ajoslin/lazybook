@@ -1,7 +1,7 @@
 {
   "name": "lazybook",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create async-loaded apis that aren't async from the outside",
   "license": "MIT",
   "repository": "ajoslin/lazybook",
