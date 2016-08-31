@@ -18,11 +18,11 @@ function Lazybook (options) {
   var fakeApi = {}
 
   methods.forEach(function (methodName) {
-    if (!loadScriptPromise) {
-      loadScriptPromise = Lazybook.Promise.resolve(load())
-    }
-
     fakeApi[methodName] = function lazybookWrapper () {
+      // Load the script if it hasn't been loaded yet.
+      if (!loadScriptPromise) {
+        loadScriptPromise = Lazybook.Promise.resolve(load())
+      }
       var args = Array.prototype.slice.call(arguments)
 
       return loadScriptPromise.then(function (realApi) {
